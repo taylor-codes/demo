@@ -22,15 +22,6 @@ public class CollectData {
 
     public static void readCSV() throws IOException {
 
-        // https://www.baeldung.com/opencsv
-        // List<List<String>> records = new ArrayList<List<String>>();
-        // try (CSVReader csvReader = new CSVReader(new FileReader("book.csv"));) {
-        //     String[] values = null;
-        //     while ((values = csvReader.readNext()) != null) {
-        //         records.add(Arrays.asList(values));
-        //     }
-        // }
-
         Properties props = new Properties();
 
         props.put("bootstrap.servers", "localhost:9092, localhost:9093, localhost:9094");
