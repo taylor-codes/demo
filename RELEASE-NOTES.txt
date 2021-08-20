@@ -1,0 +1,4 @@
+--- Release 1.0 ---
+- Initial Release
+- Adds simple Kafka Producer to 
+    publish data from a csv
